@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-gesture",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for React Native gestureState that provides information about the type of gesture using a simple plain english API",
   "main": "SimpleGesture.js",
   "scripts": {
