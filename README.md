@@ -22,7 +22,7 @@ class SuperAwesomeComponent extends React.Component {
       }
     });
   }
-  
+
   render() {
     return(
       <View { ...this._panResponder.panHandlers }>
@@ -34,9 +34,21 @@ class SuperAwesomeComponent extends React.Component {
 }
 ```
 
-## Gesture Tests
+## What You Can Do
 
-So far I've only written vertical swipe tests. Horizontal tests and gestures beyond swipes are next. 
+### Relative Gesture Distance
+
+Get the gesture distance relative to device screen size
+
+```
+let sgs = new SimpleGesture(e, gs);
+console.log('Swiped ', sgs.relativeGestureDistance.x*100, '% of the screen horizontally');
+console.log('Swiped ', sgs.relativeGestureDistance.y*100, '% of the screen vertically');
+```
+
+So far I've only written swipe tests. Gestures beyond swipes are next.
+
+### Vertical Gesture Tests
 
 * isVertical()
 * isSimpleSwipeUp()
@@ -50,7 +62,16 @@ So far I've only written vertical swipe tests. Horizontal tests and gestures bey
 * isFastSwipeDown()
 * isMovingDown()
 
+### Horizontal Gesture Tests
 
-
-
-
+* isHorizontal()
+* isSimpleSwipeLeft()
+* isSwipeLeft()
+* isLongSwipeLeft()
+* isFastSwipeLeft()
+* isMovingLeft()
+* isSimpleSwipeRight()
+* isSwipeRight()
+* isLongSwipeRight()
+* isFastSwipeRight()
+* isMovingRight()
