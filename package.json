@@ -1,0 +1,23 @@
+{
+  "name": "react-native-simple-gesture",
+  "version": "0.0.1",
+  "description": "Wrapper for React Native gestureState that provides information about the type of gesture using a simple plain english API",
+  "main": "SimpleGesture.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christopherabouabdo/react-native-simple-gesture.git"
+  },
+  "keywords": [
+    "react-native",
+    "gesture"
+  ],
+  "author": "christopherabouabdo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherabouabdo/react-native-simple-gesture/issues"
+  },
+  "homepage": "https://github.com/christopherabouabdo/react-native-simple-gesture#readme"
+}
