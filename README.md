@@ -1,10 +1,11 @@
 # react-native-simple-gesture
 Wrapper for React Native gestureState that provides information about the type of gesture using a simple plain english API
 
-## Usage
+## Install
 
-1. Run `npm install react-native-viewpager --save`
-2. Code like this:
+`npm install react-native-simple-gesture --save`
+
+## Write Code
 
 ```
 import React from 'react-native';
